@@ -1,0 +1,32 @@
+{
+    "data" : [
+        {
+            "id" : "1",
+            "name" : "Gorden Blackout",
+            "price" : "Rp 135.000",
+            "description" : "Well balanced All Yamaha marching instruments as well-balanced so they are easy to hold maneuver while marching",
+            "imageUrl" : "https://unsplash.com/photos/un5DGskIJuE"
+        },
+        {
+            "id" : "2",
+            "name" : "Gorden Kupu",
+            "price" : "Rp 100.000",
+            "description" : "Well balanced All Yamaha marching instruments as well-balanced so they are easy to hold maneuver while marching",
+            "picture" : "image/kupu.png"
+        },
+        {
+            "id" : "3",
+            "name" : "Gorden Spanyol",
+            "price" : "Rp 150.000",
+            "description" : "Well balanced All Yamaha marching instruments as well-balanced so they are easy to hold maneuver while marching",
+            "picture" : "image/spanyol.png"
+        },
+        {
+            "id" : "4",
+            "name" : "Gorden Vitrase",
+            "price" : "Rp 90.000",
+            "description" : "Well balanced All Yamaha marching instruments as well-balanced so they are easy to hold maneuver while marching",
+            "picture" : "image/vitrase.png"
+        }
+    ]
+}
