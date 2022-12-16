@@ -53,8 +53,9 @@ class _MyHomePageState extends State<MyHomePage> {
                             width: double.infinity,
                             height: double.infinity,
                             child: Image.network(
-                              "${snapshot.data![index].gordenName}",
+                              "${snapshot.data![index].image}",
                               fit: BoxFit.cover,
+
                               // height: 100,
                               // width: 130,
                             )),

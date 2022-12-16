@@ -26,21 +26,21 @@ class Data {
   String? name;
   String? price;
   String? description;
-  String? gordenName;
+  String? image;
 
   Data(
       {required this.id,
       required this.name,
       required this.price,
       required this.description,
-      required this.gordenName});
+      required this.image});
 
   Data.fromJson(Map<String, dynamic> json) {
     id = json['id'];
     name = json['name'];
     price = json['price'];
     description = json['description'];
-    gordenName = json['gorden_name'];
+    image = json['image'];
   }
 
   Map<String, dynamic> toJson() {
@@ -49,7 +49,7 @@ class Data {
     data['name'] = this.name;
     data['price'] = this.price;
     data['description'] = this.description;
-    data['gorden_name'] = this.gordenName;
+    data['image'] = this.image;
     return data;
   }
 }

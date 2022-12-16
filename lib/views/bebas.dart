@@ -18,25 +18,6 @@ class _BebasPageState extends State<Bebas> {
         title: const Text("Home", style: TextStyle(color: Colors.black)),
         backgroundColor: Colors.white,
       ),
-      // body: Column(
-      //   children: [
-      //     FutureBuilder(
-      //       future: RameneService.getDataRamen(),
-      //       builder: (context, snapshot) {
-      //         if (snapshot.connectionState == ConnectionState.waiting) {
-      //           return Center(child: Text('Please wait its loading...'));
-      //         } else {
-      //           if (snapshot.hasError)
-      //             return Center(child: Text('Error: ${snapshot.error}'));
-      //           else
-      //             return Center(
-      //                 child: new Text(
-      //                     '${snapshot.data}')); // snapshot.data  :- get your object which is pass from your downloadData() function
-      //         }
-      //       },
-      //     ),
-      //   ],
-      // ),
       body: Column(
         children: [
           FutureBuilder(
@@ -60,8 +41,8 @@ class _BebasPageState extends State<Bebas> {
                                 backgroundImage: NetworkImage(
                                     snapshot.data?['data'][index]['img_url']),
                               ),
-                              title: Text(
-                                  snapshot.data?['data'][index]['gorden_name']),
+                              title:
+                                  Text(snapshot.data?['data'][index]['image']),
                             );
                           }),
                     );
